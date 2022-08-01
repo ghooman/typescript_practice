@@ -1,4 +1,4 @@
-let 이름 = 123;
+let 이름 = 'kim';
 let 타입 = ['1', '2', '3'];
 function 함수(x) {
     return x * 2;

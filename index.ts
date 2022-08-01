@@ -1,5 +1,5 @@
 type Name = string | number;
-let 이름: Name = 123;
+let 이름: Name = 'kim';
 
 let 타입: string[] = ['1', '2', '3']
 
