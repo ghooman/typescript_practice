@@ -1,6 +1,7 @@
-// 함수 
+// 함수
 // assertion은 1. narrowing할 때, 2. 타입 100% 확신 / 비상용으로 사용
 function 내함수(x) {
+    // void는 함수에서 사용하고 리턴값을 원치 않을때 사용
     let array = [];
     array[0] = x;
 }
@@ -8,7 +9,7 @@ function 내함수(x) {
 // question 1
 function cleaning(a) {
     let newArr = [];
-    a.forEach(el => {
+    a.forEach((el) => {
         if (typeof el === "string") {
             newArr.push(parseFloat(el));
         }
@@ -18,11 +19,11 @@ function cleaning(a) {
     });
     return newArr;
 }
-console.log(cleaning([123, '3']));
+console.log(cleaning([123, "3"]));
 // question 2
-let 철수쌤 = { subject: 'math' };
-let 영희쌤 = { subject: ['science', 'english'] };
-let 민수쌤 = { subject: ['science', 'art', 'korean'] };
+let 철수쌤 = { subject: "math" };
+let 영희쌤 = { subject: ["science", "english"] };
+let 민수쌤 = { subject: ["science", "art", "korean"] };
 function teacher(obj) {
     if (Array.isArray(obj.subject)) {
         return obj.subject[obj.subject.length - 1];
