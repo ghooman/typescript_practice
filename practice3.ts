@@ -1,5 +1,6 @@
-// 함수
+// 함수 
 
+// assertion은 1. narrowing할 때, 2. 타입 100% 확신 / 비상용으로 사용
 function 내함수(x: number | string) {
 
   let array: number[] = []

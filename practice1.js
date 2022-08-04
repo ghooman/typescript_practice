@@ -6,6 +6,7 @@ function 함수(x) {
 let john = [123, true];
 let david = { name: 'kim', age: "20" };
 class User {
+    name;
     constructor(name) {
         this.name = name;
     }
